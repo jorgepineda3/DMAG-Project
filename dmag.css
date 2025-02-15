@@ -74,10 +74,6 @@ figure img {
   transition: opacity 0.3s ease;
 }
 
-figure img:hover {
-  opacity: 0;
-}
-
 figcaption {
   font-size: 0.9rem;
   color: #666;

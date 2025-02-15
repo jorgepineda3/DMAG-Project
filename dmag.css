@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.intro,
+.conclusion {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h2,
+.conclusion h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.intro p,
+.conclusion p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Photo Essay Styles */
+.photo-essay {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+}
+
+figure img:hover {
+  opacity: 0.8;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: left;
+  margin-top: 10px;
+}
